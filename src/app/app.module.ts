@@ -8,6 +8,8 @@ import { FooterComponent } from './core/layout/footer/footer.component';
 import { LandingPageComponent } from './module/landing-page/landing-page.component';
 import { AboutUsComponent } from './module/about-us/about-us.component';
 import { VedicNeutraceuticlesComponent } from './module/vedic-neutraceuticles/vedic-neutraceuticles.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,13 @@ import { VedicNeutraceuticlesComponent } from './module/vedic-neutraceuticles/ve
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule
+
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
