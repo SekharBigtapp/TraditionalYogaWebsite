@@ -10,6 +10,9 @@ import { AboutUsComponent } from './module/about-us/about-us.component';
 import { VedicNeutraceuticlesComponent } from './module/vedic-neutraceuticles/vedic-neutraceuticles.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { OurOfferingsComponent } from './module/our-offerings/our-offerings.component';
+import { DonationsComponent } from './module/donations/donations.component';
+import { GalleryComponent } from './module/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     LandingPageComponent,
     AboutUsComponent,
-    VedicNeutraceuticlesComponent
+    VedicNeutraceuticlesComponent,
+    OurOfferingsComponent,
+    DonationsComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,

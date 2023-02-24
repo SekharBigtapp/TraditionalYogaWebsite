@@ -40,10 +40,10 @@ h5,
 h6 {
   font-family: 'Poppins', sans-serif
 }
+
 h4 { 
   font-family: 'Moderrat', sans-serif
 }
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -139,9 +139,6 @@ h4 {
  .flower-left {
   width: 50px;
  }
- .flow{ float: left;}
- .flow1{ float: right;}
- .flow2{ float: right; border-right: 80px;}
 .butter-fly{
   position: absolute;
   top: 0px;
@@ -491,8 +488,6 @@ h4 {
   z-index: +99;
 }
 .container-padding { padding-left:3% ; padding-right: 3%;}
-.container-padding-offer { padding-left:3% ; padding-right: 3%; background: url(../img/flower-bg.png) no-repeat ;}
-.container-padding-offer1 { padding-left:3% ; padding-right: 3%; background: url(../img/flower-bg1.png) no-repeat ; vertical-align:top;}
 section {
   padding: 40px 0;
   overflow: hidden;
@@ -605,55 +600,15 @@ position: relative;
 }
 
 .yoga-guidelines { 
-border-radius: 25px;
-background-color: transparent;
-padding: 30px 50px;
-border: 1px solid #a5b3bd;
-position: relative;
-width: 80%;
-margin: 0px auto;
-vertical-align: top;
-}
-
-.offer-box { 
 
   border-radius: 25px;
 background-color: transparent;
 padding: 30px 50px;
-border: 3px solid #a5b3bd;
+border: 1px solid #fff;
 position: relative;
-    width: 90%;
+    width: 80%;
 margin: 0px auto;
 vertical-align: top;
-
-}
-
-.offer-box1 { 
-
-  border-radius: 25px;
-background-color: transparent;
-padding: 30px 50px;
-border: 3px solid #a5b3bd;
-position: relative;
-    width: 90%;
-margin: 0px auto;
-vertical-align: top;
-Float:right;
-color: #fff;
-
-}
-.offer-box2 { 
-
-  border-radius: 25px;
-background-color: transparent;
-padding: 30px 50px;
-border: 3px solid #cdd4d3;
-position: relative;
-    width: 90%;
-margin: 0px auto;
-vertical-align: top;
-Float:right;
-color: #fff;
 
 }
 .about-ty-donation-btn {
@@ -679,14 +634,6 @@ position: relative;
 width: 60%;
 margin: 0px auto;
 }
-
-.offer-ty { 
-  border-radius: 45px;
-background-color: #ffffff;
-padding: 30px 40px;
-position: relative;
-width: 100%;
-margin: 0px auto;}
 
 .btn-knowmore { padding: 4px 15px;}
 .section-bg {
@@ -821,7 +768,7 @@ margin: 0px auto;}
   border: 1px solid #97a78c;
   width: 300px;
   height: 300px;
-  top: 100px;
+  top: 40px;
   position: relative;
   left: 70%;
   right: 0px;
@@ -897,171 +844,8 @@ margin: 0px auto;}
 .section-title p {
   margin-bottom: 0;
 }
-.w-75 {
-  width: 75%!important;
-}
-.programs { padding-top: 40px; border-left: 1px solid #bdc8b6;}
-.pt-7{ padding-top: 5rem!important;}
-.pt-9{ padding-top: 7rem!important;}
-.programs-body { padding-left: 1rem;}
-
-.donation-circle { 
-  background-color: #aab8a8;
-  border-radius: 50%;
-  width: 600px;
-  height: 600px;
-  margin: 0px auto;
-}
-.donate-circle2{
-background-color: transparent;
-border-radius: 50%;
-width: 620px;
-height:610px;
-/* top: -50px; */
-border: 1px solid #aab8a8;
-position: relative;
-top: -1%;
-}
-.donars-region { padding: 20%; padding-top: 30%;}
-.form-control{
-    background: transparent !important;
-    border: 1px solid #e8ecef !important;
-    border-radius: 25px;
-}
-.form-group { margin-bottom: 20px;}
-.btn-popup{
-background-color: #d0d9de;
-    box-shadow: 2px 2px 3px #6e6e6e;
-    padding: 7px 20px;
-}
-
-.offer-gradient {  
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,d5dbe2+45,879aa0+75,8a9c7c+100 */
- background: #ffffff; /* Old browsers */
- background: -moz-linear-gradient(-45deg,  #ffffff 0%, #d5dbe2 45%, #879aa0 75%, #8a9c7c 100%); /* FF3.6-15 */
- background: -webkit-linear-gradient(-45deg,  #ffffff 0%,#d5dbe2 45%,#879aa0 75%,#8a9c7c 100%); /* Chrome10-25,Safari5.1-6 */
- background: linear-gradient(135deg,  #ffffff 0%,#d5dbe2 45%,#879aa0 75%,#8a9c7c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
- filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#8a9c7c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
- 
- }
-
-/* donations page */
-
-.donations {
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8c9d80+0,8e9f82+43,f6f7f5+100&1+0,0.94+100 */
-background: -moz-linear-gradient(top,  rgba(140,157,128,1) 0%, rgba(142,159,130,0.97) 43%, rgba(246,247,245,0.94) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  rgba(140,157,128,1) 0%,rgba(142,159,130,0.97) 43%,rgba(246,247,245,0.94) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  rgba(140,157,128,1) 0%,rgba(142,159,130,0.97) 43%,rgba(246,247,245,0.94) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c9d80', endColorstr='#f0f6f7f5',GradientType=0 ); /* IE6-9 */
-
-}
-
-#our-aim
-{   z-index: +99;
-  position: relative;
-  top: -50px;
-}
-.ouraim-circle12{
-background-color: transparent;
-  border-radius: 50%;
-  width: 360px;
-  height: 350px;
-  /* top: -50px; */
-  border: 1px solid #fff;
-  position: relative;
-  top: -1%;
-}
-.ouraim-circle {
-background-color: transparent;
-  border-radius: 50%;
-  width: 350px;
-  height: 350px;
-  position: relative;
-  top: 0%;
-}
-.ouraim-quote {
-  padding: 50px;
-  position: relative;
-  top: 80px;
-  font-size: 13px;
-  color: #fff; 
-}
-
-.ouraim-block { 
-border-radius: 25px;
-background-color: #d0d9de;
-padding: 30px 50px;
-border: 1px solid #fff;
-position: relative;
-  width: 80%;
-  float: right;
-}
-.ouraim-block-content, .ouraim-block-content h6{
-font-size: 13px;
-}
-
-.donations-right-lotus {
-position: absolute;
-  right: 5%;
-  width: 200px;
-  top: 35%;
-}
 
 
-#the-charity
-{   z-index: +99;
-  position: relative;
-}
-.charity-circle12{
-background-color: #95a68c;
-  border-radius: 50%;
-  width: 360px;
-  height: 350px;
-  position: relative;
-  top: 0%;
-  box-shadow: 2px 3px 4px #85957a;
-}
-.charity-circle {
-background-color: transparent;
-  border-radius: 50%;
-  width: 350px;
-  height: 350px;
-  position: relative;
-  top: 10%;
-}
-.charity-quote {
-padding: 30px;
-  position: relative;
-  top: 60px;
-  font-size: 13px;
-  color: #fff;
-  left: 40px;
-}
-
-.charity-block { 
-border-radius: 25px;
-background-color: #d0d9de;
-padding: 30px 50px;
-border: 1px solid #fff;
-position: relative;
-  width: 80%;
-left: 10%;
-margin-top:10%;
-}
-.charity-block-content, .charity-block-content h6{
-font-size: 13px;
-}
-
-.grid-divider > .programs:nth-child(n + 2):after {
-content: "";
-background-color: red;
-position: absolute;
-top: 0;
-bottom: 0; 
-width: 1px;
-height: auto;
-left: -1px;
-}
 /* Model popup */
 
 @media (min-width: 576px){
@@ -1076,7 +860,7 @@ left: -1px;
   background: #d0d9de;
 }
 .about-popup { position: relative;}
-.modal-body.about{
+.modal-body{
   background: url(../img/vedic-nutricals-bg.png) no-repeat ;
   background-size: 100%;
   opacity: 0.7;
@@ -1114,43 +898,6 @@ right: 10%;
   z-index: 99;
 }
 .about-popup-content { width: 70%; margin: 0px auto;}
-
-
-/* Model popup */
-
-@media (min-width: 576px){
-.modal-dialogoffer {
-    max-width: var(--bs-modal-width);
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 80% !important;
-}
-}
-.modal-contentoffer {
-  background: #d0d9de;
-}
-.about-popupoffer { position: relative;}
-.modal-bodyoffer{
-  background: url(../img/offerinspopupbg.png) no-repeat ;
-  background-size: 100%;
-  opacity: 0.7;
-}
-.about-flower-popupoffer {
-  position: absolute;
-    right: -60%;
-    float: right;
-    z-index: +99;
-    bottom: -30%;
-}
-.butter-fly-popupoffer {
-  position: absolute;
-  bottom: 10%;
-  right: 0%;
-  z-index: 99;
-}
-
-
-
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -2108,8 +1855,4 @@ right: 10%;
     float: none;
     text-align: ceneter;
   }
-}
-.fo18{
-	font-size: 18px;
-	color: #4f6470;
 }
